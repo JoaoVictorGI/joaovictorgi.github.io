@@ -67,19 +67,19 @@ header {
 
 /* Prompts específicos para cada página */
 .prompt-sobre-mim::before {
-  content: "joao@portifolio:~/sobre-mim $ ";
+  content: "joao@portfolio:~/sobre-mim $ ";
 }
 
 .prompt-formacao::before {
-  content: "joao@portifolio:~/formacao $ ";
+  content: "joao@portfolio:~/formacao $ ";
 }
 
-.prompt-portifolio::before {
-  content: "joao@portifolio:~/portifolio $ ";
+.prompt-portfolio::before {
+  content: "joao@portfolio:~/portfolio $ ";
 }
 
 .prompt-contato::before {
-  content: "joao@portifolio:~/contato $ ";
+  content: "joao@portfolio:~/contato $ ";
 }
 
 @keyframes blink {
@@ -151,6 +151,13 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  color: #fff;
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
 p {
   margin-bottom: 1rem;
   color: #ccc;
@@ -194,6 +201,10 @@ li::before {
   font-size: 0.8rem;
   margin-bottom: 0.5rem;
   font-style: italic;
+}
+
+.experiencia-item {
+  margin-bottom: 1.5rem;
 }
 
 /* Footer */
