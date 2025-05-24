@@ -67,19 +67,19 @@ header {
 
 /* Prompts específicos para cada página */
 .prompt-sobre-mim::before {
-  content: "joao@portfolio:~/sobre-mim $ ";
+  content: "joao@portifolio:~/sobre-mim $ ";
 }
 
 .prompt-formacao::before {
-  content: "joao@portfolio:~/formacao $ ";
+  content: "joao@portifolio:~/formacao $ ";
 }
 
-.prompt-portfolio::before {
-  content: "joao@portfolio:~/portfolio $ ";
+.prompt-portifolio::before {
+  content: "joao@portifolio:~/portifolio $ ";
 }
 
 .prompt-contato::before {
-  content: "joao@portfolio:~/contato $ ";
+  content: "joao@portifolio:~/contato $ ";
 }
 
 @keyframes blink {
